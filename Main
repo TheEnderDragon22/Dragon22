@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Spin-off of "Project: Blog"</title>
+    </head>
+    <body>
+        <h1>Dogbuddy22's blog</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png" width="209">
+
+        <h3>Contents</h3>
+        
+
+            <p class="p_tag"> <a href="#first_p">-First post-</a></p>
+            <p class="p_tag"> <a href="#second_p">-Second post-</a></p>
+
+        <h2 id="smp_p">Started SMP World</h2>
+        <p class="date">March 25 – April 3, 2021</p>
+        <p class="smp_para"id="smp">On Spring Break,</p><p class="smp_para"> I started a new survival world and made a goal to achieve all the achievements and beat the game. I have already defeated the Wither and found the stronghold. We have defeated the Ender Dragon <strong>three times and still aiming to defeat it even more times. </strong>We have already got full Netherite armour and got one hundred eleven extra diamonds. We have achieved <strong>sixty-one</strong> of the achievements, and have not failed. We will keep going until we get all <strong>one hundred eleven</strong> achievements.</p>
+        <h2 id="first_p">First post</h2>
+        <p class="date">May 4, 2021</p>
+        
+        <p>May the 4th be with you!</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Star_Wars_Day_May_The_Fourth.svg" alt="Star Wars Day May The Fourth" width="203"> 
+        <h2 id="second_p">Second post</h2>
+        <p class="date">May 9, 2021</p>
+        <p>Happy mother's day!</p>
+        
+    
+        <style>
+            .p_tag {
+                font-size: 18px;
+                text-align: center;
+                background: white;
+                margin:auto;
+                display:table;
+                padding: 5px;
+                
+                
+            }
+            .date {
+                font-family: cursive;
+                text-align: center;
+                color: blue;
+            }
+            h1 {
+                font-size: 25px;
+                text-align: center;
+                background: black;
+                color: white;
+            }
+            body {
+                text-align: center;
+                background: cyan;
+            }
+            .p_tag a {
+                color: black;
+                text-decoration: none;
+            }
+            #smp_p {
+                background: lime;
+                padding:5px;
+            }
+            #smp {
+                font-family: cursive;
+                font-style:italic;
+                padding:5px;
+            }
+            .smp_para {
+                background: white;
+                margin:auto;
+                border:2px solid blue;
+            }
+        </style>
+    </body>
+</html>
